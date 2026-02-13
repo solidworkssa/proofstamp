@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ProofStamp - Document Verification',
-  description: 'Verify documents with immutable timestamps on Base and Stacks',
+  title: 'ProofStamp',
+  description: 'Decentralized document verification',
 }
 
 export default function RootLayout({
