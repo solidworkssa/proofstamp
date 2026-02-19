@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title ProofStamp Contract
+/// @author solidworkssa
 /// @notice Decentralized document verification and timestamping.
 contract ProofStamp {
+    string public constant VERSION = "1.0.0";
+
 
     struct Proof {
         bytes32 documentHash;
