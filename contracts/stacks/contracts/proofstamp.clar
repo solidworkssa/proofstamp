@@ -32,7 +32,7 @@
         )
         (asserts! (not exists) (err u100)) ;; Already exists
         (map-set proofs document-hash {
-            owner: tx-sender,
+            owner: contract-caller,
             timestamp: block-height,
             metadata-uri: metadata-uri
         })
